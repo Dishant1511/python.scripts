@@ -1,4 +1,5 @@
 ASSIGNMENT 1
+
 Task 1: Basic Arithmetic Operations
 This section performs four mathematical operations on two integers provided by the user.
 
@@ -25,7 +26,9 @@ It concatenates the names with a space between.
 
 It prints a greeting message
 
+
 ASSIGNMENT 2
+
  Task 1: Check Whether a Number is Odd or Even
 
 The user is prompted to input an integer.
@@ -48,7 +51,9 @@ Each number is added to the running total sum.
 
 After the loop finishes, it prints the total sum.
 
+
 ASSIGNMENT 3
+
 Task 1: Factorial of a Number (Using Recursion)
 
 A function factorial(n) is defined using recursion to calculate the factorial of a number.
