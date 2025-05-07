@@ -1,5 +1,6 @@
+#Assignment 1
 #Tassk 1
-'''
+
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
 a1 = a+b
@@ -10,7 +11,7 @@ print("Addition : ",a1)
 print("Subtraction : ",a2)
 print("Multiplication : ",a3)
 print("Division : ",a4)
-'''
+
 
 #Task 2
 
