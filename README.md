@@ -49,5 +49,35 @@ Each number is added to the running total sum.
 After the loop finishes, it prints the total sum.
 
 ASSIGNMENT 3
+Task 1: Factorial of a Number (Using Recursion)
 
+A function factorial(n) is defined using recursion to calculate the factorial of a number.
+
+If n is 0 or 1, it returns 1 (base case).
+
+Otherwise, it calls itself with n-1 and multiplies the result by n.
+
+The user is prompted to enter a number.
+
+If the number is negative, it prints an error message.
+
+If the number is 0 or positive, it computes the factorial and displays the result.
+
+Task 2: Math Operations Using math Module
+
+The program prompts the user to enter a positive number.
+
+It uses a try-except block to handle invalid (non-numeric) input gracefully.
+
+If the number is greater than 0, it calculates:
+
+math.sqrt(number) → Square Root
+
+math.log(number) → Natural Logarithm (ln)
+
+math.sin(number) → Sine, using the input as radians
+
+It prints all the computed values in a clear, labeled format.
+
+If the number is 0 or negative, it displays a warning message.
 
