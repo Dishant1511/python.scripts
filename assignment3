@@ -1,0 +1,38 @@
+#Assignment 3
+#Task1
+#factorial of a number
+
+def factorial(n):
+    if n==1 or n==0:
+        return 1
+    else:
+        return n*factorial(n-1)
+num = int(input("Enter a number: "))
+if num<0:
+    print("The number cannot be negative")
+else:
+    result = factorial(num)
+    print(f"factorial of {num} is {result}")
+
+#Task 2
+# program using math module
+
+import math
+
+try:
+    number = float(input("Enter a positive number: "))
+
+    if number <= 0:
+        print("Please enter a number greater than 0 for logarithm and square root.")
+    else:
+        sqrt_result = math.sqrt(number)
+        log_result = math.log(number)
+        sine_result = math.sin(number)
+
+        print(f"Results for the number {number}:")
+        print(f"Square root: {sqrt_result}")
+        print(f"Natural logarithm (ln): {log_result}")
+        print(f"Sine (in radians): {sine_result}")
+
+except ValueError:
+    print("Invalid input! Please enter a numeric value.")
