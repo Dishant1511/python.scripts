@@ -27,8 +27,9 @@ with open("output.txt .txt", "a") as file:
     print("Data successfully append to  output.txt")
 
 
-with open(" output.txt", "r") as file:
+with open("output.txt", "r") as file:
     content = file.read()
 
 print("\nFinal content of 'output.txt':")
 print(content)
+file.close()
